@@ -77,6 +77,7 @@ function fillConfirmReservationData(customReservation) {
     document.querySelector('.confirm-reservation #guest-room-type').textContent = `Room Type: ${customReservation.roomType}`;
     document.querySelector('.confirm-reservation #guest-data-in').textContent = `Date-in: ${customReservation.startDate}`;
     document.querySelector('.confirm-reservation #guest-data-out').textContent = `Date-out: ${customReservation.endDate}`;
+}
 
 document.querySelector('#confirm-back-btn').addEventListener('click', (e) => getBackToPersonalData(e));
 
@@ -91,6 +92,7 @@ document.querySelector('#confirm-reservation').addEventListener('click', (e) => 
 function showThanksPage(e) {
     e.preventDefault();
     changeContent('thank-you-content');
+}
 
 document.querySelector('#search-back-btn').addEventListener('click', (e) => fillSearchForm(e));
 
