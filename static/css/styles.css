@@ -341,3 +341,7 @@ button:hover {
     justify-content: center;
 }
 
+.selected-room{
+    background-color: #cfcbca !important;
+}
+
