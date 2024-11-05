@@ -184,7 +184,7 @@ button:hover {
     display: none;
 }
 
-.selected-room{
+.selected-room {
     background-color: #cfcbca;
 }
 
@@ -299,6 +299,7 @@ button:hover {
     margin: 20px;
 }
 
+
 .offers {
     display: flex;
     flex-direction: column;
@@ -344,4 +345,5 @@ button:hover {
 .selected-room{
     background-color: #cfcbca !important;
 }
+
 
